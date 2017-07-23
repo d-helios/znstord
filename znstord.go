@@ -11,10 +11,9 @@ import (
 	"os"
 )
 
-
 const (
 	defaultConfigFile = "/etc/znstor/config.json"
-	defaultLogFile = "/var/adm/znstord.log"
+	defaultLogFile    = "/var/adm/znstord.log"
 )
 
 func main() {
@@ -47,5 +46,5 @@ func main() {
 	router := znstor.NewRouter(io.Writer(lf), config.Auth.UserName, config.Auth.UserPassword)
 
 	// start http server
-	log.Fatal(http.ListenAndServe(config.Listen + ":10987", router))
+	log.Fatal(http.ListenAndServe(config.Listen+":10987", router))
 }
