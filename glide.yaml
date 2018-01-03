@@ -1,0 +1,7 @@
+package: github.com/d-helios/znstord
+import:
+- package: github.com/gorilla/mux
+  version: ~1.6.0
+- package: github.com/jinzhu/copier
+- package: github.com/twinj/uuid
+  version: ~1.0.0
