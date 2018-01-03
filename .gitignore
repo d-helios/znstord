@@ -1,0 +1,9 @@
+bin/
+bin/*
+vendor/
+vendor/**
+glide.lock
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.idea
