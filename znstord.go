@@ -3,7 +3,7 @@ package main
 import (
 	"encoding/json"
 	"flag"
-	"github.com/d-helios/znstor"
+	"github.com/d-helios/znstord/znstor"
 	"io"
 	"io/ioutil"
 	"log"
