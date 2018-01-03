@@ -2,7 +2,7 @@ package zfs_test
 
 import (
 	"errors"
-	"github.com/d-helios/zfs"
+	"github.com/d-helios/znstord/zfs"
 	"testing"
 )
 

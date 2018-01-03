@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/d-helios/zfs"
+	"github.com/d-helios/znstord/zfs"
 	"github.com/gorilla/mux"
 	"github.com/jinzhu/copier"
 	"io"

@@ -2,9 +2,9 @@ package znstor_test
 
 import (
 	"fmt"
-	"github.com/d-helios/stmf"
-	"github.com/d-helios/zfs"
-	"github.com/d-helios/znstor"
+	"github.com/d-helios/znstord/stmf"
+	"github.com/d-helios/znstord/zfs"
+	"github.com/d-helios/znstord/znstor"
 	"github.com/twinj/uuid"
 	"strings"
 	"testing"

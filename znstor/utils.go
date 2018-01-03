@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"runtime"
 	"strings"
-	"github.com/d-helios/stmf"
+	"github.com/d-helios/znstord/stmf"
 )
 
 func IsValueInArray(value interface{}, list []interface{}) bool {

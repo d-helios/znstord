@@ -3,7 +3,7 @@ package itadm_test
 import (
 	"errors"
 	"fmt"
-	"github.com/d-helios/itadm"
+	"github.com/d-helios/znstord/itadm"
 	"testing"
 )
 

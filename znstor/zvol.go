@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
-	"github.com/d-helios/stmf"
-	"github.com/d-helios/zfs"
+	"github.com/d-helios/znstord/stmf"
+	"github.com/d-helios/znstord/zfs"
 	"github.com/twinj/uuid"
 	"time"
 )

@@ -2,8 +2,8 @@ package znstor
 
 import (
 	"encoding/json"
-	"github.com/d-helios/stmf"
-	"github.com/d-helios/zfs"
+	"github.com/d-helios/znstord/stmf"
+	"github.com/d-helios/znstord/zfs"
 	"github.com/gorilla/mux"
 	"github.com/twinj/uuid"
 	"io"

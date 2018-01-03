@@ -2,7 +2,7 @@ package znstor
 
 import (
 	"encoding/json"
-	"github.com/d-helios/stmf"
+	"github.com/d-helios/znstord/stmf"
 	"github.com/gorilla/mux"
 	"net/http"
 )
